@@ -1,3 +1,5 @@
+English | [简体中文](./README.zh-CN.md)
+
 # SeqNo Generator
 
 a sequence number generator based on Gorm.
@@ -12,7 +14,7 @@ Base examples
 
 ```go
 
-    db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
+	db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
 	if err != nil {
 		fmt.Println(fmt.Sprintln(err))
 	}
@@ -32,7 +34,7 @@ Locking is required for goroutine
 
 ```go
 
-    db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
+	db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
 	if err != nil {
 		fmt.Println(fmt.Sprintln(err))
 	}

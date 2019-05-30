@@ -12,7 +12,7 @@
 
 ```go
 
-    db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
+	db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
 	if err != nil {
 		fmt.Println(fmt.Sprintln(err))
 	}
@@ -32,7 +32,7 @@
 
 ```go
 
-    db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
+	db, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/test?parseTime=true")
 	if err != nil {
 		fmt.Println(fmt.Sprintln(err))
 	}
